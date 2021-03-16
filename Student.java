@@ -4,14 +4,29 @@ public class Student {
     private int hours;
     private int points;
 
-
+    // constructor added
+    Student()
+    {
+        IDnumber = 77375;
+        points = 12;
+        hours = 3;
+    }
+    // end of constructor
 
     // the public get and set methods
     public void setIDnumber(int number)
     {
         IDnumber = number;
     }
+    public void setPoints(int p)
+    {
+        points = p;
+    }
 
+    public void setHours(int h)
+    {
+        hours = h;
+    }
 
     public int getPoints()
     {
