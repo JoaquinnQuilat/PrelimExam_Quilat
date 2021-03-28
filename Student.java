@@ -1,8 +1,8 @@
 public class Student {
     // the private data members
-    private int IDnumber;
-    private int hours;
-    private int points;
+    public int IDnumber;
+    public int hours;
+    public int points;
 
     // constructor added
     Student()
